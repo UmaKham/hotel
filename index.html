@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+    <title>Autuz Resort - Family Hotel</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>Main</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>News & Events</li>
+            <li>Links</li>
+            <li>Contacts</li>
+            <li class="book">Book</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="main_content">
+          <div class="bg">
+            <img src="./public/img1.png" alt="">
+          </div>
+          <div class="title">
+            <h1>Autuz Resort</h1>
+            <p>Family Hotel</p>
+          </div>
+        </div>
+
+        <div class="title_box">
+          <p>WHEN YOU NEED COMPLETE REST and MAXIMUM RELAX</p>
+          <p>Amazing nature, <br> mountain air and high-quality service <br>- this is how a vacation should be</p>
+          <div class="hotel_room">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+          </div>
+        </div>
+        <form name="form">
+          <div class="check_box">
+            <div class="date">
+              <label for="dates">Entry and departure date</label>
+              <input type="date">
+            </div>
+  
+            <div class="adults">
+              <label for="adults">Adults</label>
+              <input type="number">
+            </div>
+  
+            <div class="children">
+              <label for="child">Children</label>
+              <input type="number">
+            </div>
+          </div>
+          <button>Check dates</button>
+        </form>
+      </div>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
